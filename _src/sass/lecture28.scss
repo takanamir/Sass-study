@@ -1,0 +1,28 @@
+@mixin shadow($value...) {
+  text-shadow: $value;
+}
+
+.mainText1 {
+  @include shadow((8px 8px 0 #666, 10px -10px 0 #999));
+}
+
+.mainText2 {
+  @include shadow(unquote("8px 8px 0 #666, 10px -10px 0 #999"));
+}
+
+.mainText3 {
+  @include shadow(8px 8px 0 #666, 10px -10px 0 #999);
+}
+
+@mixin box($w: 300px, $pd: 20px, $mg: 40px, $clr: #f00) {
+  width: $w;
+  padding: $pd;
+  margin: $mg;
+  color: $clr;
+}
+
+$value: 200px, 40px;
+
+.main {
+  @include box($value...);
+}

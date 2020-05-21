@@ -1,0 +1,24 @@
+@mixin font($color: #0f0, $size: 8px) {
+  color: $color;
+  font-size: $size;
+}
+
+.main {
+  @include font(#f00, 10px);
+}
+
+.side {
+  @include font;
+}
+
+.first {
+  @include font(#00f);
+}
+
+// .second {
+//   @include font(, 20px);
+// }
+
+.second {
+  @include font($size: 20px);
+}

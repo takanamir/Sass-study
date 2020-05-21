@@ -1,0 +1,18 @@
+.mainText1 {
+  text-shadow: 8px 8px 0 #666, 10px -10px 0 #999;
+}
+
+.mainText2 {
+  text-shadow: 8px 8px 0 #666, 10px -10px 0 #999;
+}
+
+.mainText3 {
+  text-shadow: 8px 8px 0 #666, 10px -10px 0 #999;
+}
+
+.main {
+  width: 200px;
+  padding: 40px;
+  margin: 40px;
+  color: #f00;
+}

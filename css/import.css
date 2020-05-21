@@ -1,0 +1,7 @@
+@import "main.css";
+@import "../main.css";
+@import url("main.css");
+@import url(main.css);
+@import "http://localhost/css/main.css";
+
+@import "print.css" print;

@@ -1,0 +1,55 @@
+.mtthrough1 {
+  margin-top: 10;
+}
+
+.mtthrough2 {
+  margin-top: 20;
+}
+
+.mtthrough3 {
+  margin-top: 30;
+}
+
+.mtthroughindex10 {
+  margin-top: 10;
+}
+
+.mtthroughindex20 {
+  margin-top: 20;
+}
+
+.mtthroughindex30 {
+  margin-top: 30;
+}
+
+.mtto1 {
+  margin-top: 10;
+}
+
+.mtto2 {
+  margin-top: 20;
+}
+
+.pb0 {
+  padding-bottom: 0;
+}
+
+.pb10 {
+  padding-bottom: 100;
+}
+
+.pb20 {
+  padding-bottom: 200;
+}
+
+.icon-top {
+  background: url("../img/top.png");
+}
+
+.icon-qa {
+  background: url("../img/qa.png");
+}
+
+.icon-contact {
+  background: url("../img/contact.png");
+}

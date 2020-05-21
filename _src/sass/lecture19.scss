@@ -1,0 +1,16 @@
+$value: 70px; // グローバル変数
+
+section {
+  margin-bottom: $value;
+
+  $value: 20px; // ローカル変数
+  p {
+    padding: $value;
+  }
+}
+
+footer {
+  padding: $value;
+  $value: 50px;
+  margin: $value;
+}

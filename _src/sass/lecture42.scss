@@ -1,0 +1,23 @@
+@function sum($value1: 50px, $value2: 50px) {
+  @return $value1 + $value2;
+}
+
+.sum {
+  width: sum(100px, 200px);
+  height: sum();
+}
+
+@function average($arr) {
+  $sum: 0;
+  @each $value in $arr {
+    $sum: $sum + $value;
+    @debug $sum;
+  }
+  @return round($sum / length($arr));
+}
+
+$list: 1, 7, 8, 23;
+
+.ave {
+  margin: average($list);
+}

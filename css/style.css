@@ -1,0 +1,19 @@
+section p {
+  margin-bottom: 20px;
+}
+
+#localID p {
+  margin-bottom: 0;
+}
+
+.note {
+  color: #f00;
+}
+
+#localID p a:hover {
+  text-decoration: underline;
+}
+
+#contents #localID {
+  padding: 10px;
+}
